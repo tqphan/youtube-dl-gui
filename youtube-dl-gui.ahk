@@ -77,21 +77,3 @@ Else
   }
 }
 return
-
-; If YouTubeURL=
-; {
-;   MsgBox, No URL detected.
-; }
-; Else
-; {
-;   If(Media = "Video")
-;   {
-;     RunWait, %comspec% /c "youtube-dl.exe  -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio %YouTubeURL%"
-;   }
-;   Else If(Media = "Audio")
-;   {
-;     RunWait, %comspec% /c "youtube-dl.exe  -f bestaudio[ext=m4a]/best %YouTubeURL%"
-;   }
-
-;   youtubeurl=
-; }
